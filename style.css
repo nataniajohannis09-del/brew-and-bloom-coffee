@@ -368,3 +368,45 @@ body {
     margin-top: 15px;
     font-weight: bold;
 }
+
+/* Checkout Section */
+.checkout-section {
+    background-color: #F7DDE5;
+    padding: 35px;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.checkout-section h2 {
+    color: #795548;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.checkout-section p {
+    color: #80645B;
+    margin-bottom: 25px;
+}
+
+.checkout-section .form-control {
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.checkout-section label {
+    color: #795548;
+    font-weight: bold;
+}
+
+.checkout-section button {
+    border: none;
+    cursor: pointer;
+}
+
+#checkoutMessage {
+    margin-top: 20px;
+    color: #795548;
+    font-weight: bold;
+}

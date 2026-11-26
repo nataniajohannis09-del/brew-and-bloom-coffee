@@ -48,6 +48,63 @@
         </div>
     </nav>
 
+
+<!-- Checkout Section -->
+<div class="checkout-section mt-5">
+    <h2>Order & Checkout</h2>
+    <p>Enjoy your favorite coffee and treats!</p>
+
+    <form id="checkoutForm">
+        <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" id="customerName" class="form-control" placeholder="Enter your name" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Select Menu</label>
+            <select id="orderMenu" class="form-control" required>
+                <option value="">Choose your order</option>
+                <option value="Cappuccino">Cappuccino - Rp25.000</option>
+                <option value="Cafe Latte">Cafe Latte - Rp28.000</option>
+                <option value="Cafe Mocha">Cafe Mocha - Rp30.000</option>
+                <option value="Matcha Latte">Matcha Latte - Rp27.000</option>
+                <option value="Chocolate">Chocolate - Rp25.000</option>
+                <option value="Strawberry Milk">Strawberry Milk - Rp25.000</option>
+                <option value="Butter Croissant">Butter Croissant - Rp20.000</option>
+                <option value="Chocolate Cake">Chocolate Cake - Rp30.000</option>
+                <option value="Chicken Sandwich">Chicken Sandwich - Rp32.000</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Quantity</label>
+            <input type="number" id="orderQuantity" class="form-control" min="1" value="1" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Delivery Address</label>
+            <textarea id="deliveryAddress" class="form-control" placeholder="Enter your address" required></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Payment Method</label>
+            <select id="paymentMethod" class="form-control" required>
+                <option value="">Choose payment method</option>
+                <option value="Cash">Cash</option>
+                <option value="Bank Transfer">Bank Transfer</option>
+                <option value="E-Wallet">E-Wallet</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn-coffee">
+            Checkout Now
+        </button>
+
+        <div id="checkoutMessage"></div>
+    </form>
+</div>
+
+
     <!-- Contact Header -->
     <section class="contact-header text-center">
         <div class="container">
@@ -122,6 +179,8 @@
             <p>&copy; 2026 Brew & Bloom Coffee. All Rights Reserved.</p>
         </div>
     </footer>
+
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
